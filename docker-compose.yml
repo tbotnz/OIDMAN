@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+    oidman:
+      build:
+          context: .
+          dockerfile: Dockerfile
+      ports:
+          - "9002:9002"
+      restart: always
+      networks:
+      - "oidman-network"
+networks:
+  oidman-network:
+    name: "oidman-network"
