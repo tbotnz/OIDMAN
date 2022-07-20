@@ -1,7 +1,7 @@
 # OIDMAN
 
 #### summary
-A simple ui providing fast SNMP polling one or multiple OID's.
+A simple ui providing fast SNMP polling one or multiple OID's (sub second if supported by your hardware).
 
 - Built on the tried and true SNMPWalk
 - Simple container deployment
@@ -13,6 +13,8 @@ git clone https://github.com/tbotnz/oidman.git
 cd oidman
 sudo docker-compose up --build
 ```
+
+you can then access oidman via ```http://localhost:9002```
 
 #### demo
 ![oidman demo](/oidman.gif)
