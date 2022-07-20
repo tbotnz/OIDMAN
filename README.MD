@@ -19,4 +19,4 @@ sudo docker-compose up --build
 
 
 #### important note
-project is expirmental
+project is expirmental, we assume you know what you are doing.
